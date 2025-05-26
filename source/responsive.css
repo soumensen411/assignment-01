@@ -1,0 +1,101 @@
+@media (max-width: 1024px) {
+  .text {
+    margin: 20px 50px;
+  }
+
+  .about-sec {
+    text-align: center;
+        flex-direction: column-reverse;
+  }
+  .about-me h1 {
+    font-size: 32px;
+  }
+
+  .about-me p {
+    font-size: 18px;
+  }
+
+  .about-sec img {
+    margin-top: 30px;
+    width: 80%;
+  }
+  .box-container {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+ 
+    .navber {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+   .banner {
+    margin: 40px 20px;
+    padding: 20px;
+  }
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+.about-sec {
+    margin: 40px 20px;
+    padding: 20px;
+        flex-direction: column-reverse;
+  }
+
+  .vdo-container {
+    padding: 10px;
+  }
+ 
+   .box {
+    width: 90%;
+    margin: auto;
+  }
+.footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .btn {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+  .navber h3 {
+    font-size: 28px;
+}
+.about-sec{
+    flex-direction: column-reverse;
+}
+.text h1,
+.about-me h1
+  {
+    font-size: 24px;
+}
+ .title h1 {
+    font-size: 24px;
+}
+
+.title p,
+  .text p {
+    font-size: 14px;
+  }
+.about-me p
+  {
+    font-size: 14px;
+  }
+
+  .box h1 {
+    font-size: 18px;
+  }
+.box-container {
+    gap: 20px;
+  }
+}
